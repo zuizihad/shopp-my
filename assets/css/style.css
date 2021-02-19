@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-weight: bold;
+    font-size: 55px;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 23px;
+}
+h4{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+}
+
+.custom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.badge{
+    font-size: 10px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img {
+    width: 100%;
+}
+.banner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shop-btn {
+    text-decoration: none;
+    background-color: #DC3545;
+    color: white;
+    padding: 16px 40px 16px 40px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.shop-btn:hover{
+    background: #ffff;
+    color: #DC3545;
+}
+.product-card img{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+.card {
+    border: none;
+    cursor: pointer;
+}
+.journal-card img {
+   width: auto;
+   height: 500px;
+   object-fit: cover;
+}
+.card span {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: goldenrod;
+}
+
+.offer {
+   
+    background-color: #EAE2D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer img {
+   width: 100%;
+}
+
+.offer h1 {
+    font: 700;
+    font-family: monospace;
+    font-size: 65px;
+}
+.offer h4{
+    font: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: none solid rgb(33, 37, 41);
+}
+
+
+.policy-card{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+.policy-card:hover{
+    background: wheat;
+}
+
+ .policy-card i{
+    font-size: 36px;
+    color: goldenrod;
+    padding: 10px;
+}
+.follow-card{
+    margin-top: 25px;
+}
+.follow-card img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+footer{
+    background-color: bisque;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    text-align: start;
+    cursor: pointer;
+    padding: 8px;
+    color: #888888;
+}
+
+
+
+.footer-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+ul li i {
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+ul li button{
+    width: 180px;
+    color: white;
+}
+ul li button i{
+    background-color: black;
+    color: white;
+}
+
+/* animation */
+.product-hover{
+   display: none;
+}
+.product-card:hover +.product-hover{
+    display: block;
+}
+.hover-icon{
+    background-color: #DC3545;
+    border-radius: 50%;
+    color: white;
+}
